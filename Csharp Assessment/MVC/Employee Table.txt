@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[Employee] (
+    [EmpId]      INT          NOT NULL,
+    [EmpName]    VARCHAR (50) NOT NULL,
+    [EmpAddress] VARCHAR (50) NOT NULL,
+    [EmpSalary]  MONEY        NOT NULL,
+    PRIMARY KEY CLUSTERED ([EmpId] ASC)
+);
